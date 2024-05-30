@@ -1,0 +1,3 @@
+<launch>
+  <node name="foo_throttler" type="throttle" pkg="topic_tools" args="messages /camera/odom/sample 30 /odom" />
+</launch>
